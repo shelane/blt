@@ -1158,16 +1158,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.4.2",
+            "version": "9.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "5a4d6acc99e279f70a914804ff3dd08111707de1"
+                "reference": "7522be4ba7f6c1f0b09b7fb37a657d7a50b36f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/5a4d6acc99e279f70a914804ff3dd08111707de1",
-                "reference": "5a4d6acc99e279f70a914804ff3dd08111707de1",
+                "url": "https://api.github.com/repos/drupal/core/zipball/7522be4ba7f6c1f0b09b7fb37a657d7a50b36f44",
+                "reference": "7522be4ba7f6c1f0b09b7fb37a657d7a50b36f44",
                 "shasum": ""
             },
             "require": {
@@ -1219,124 +1219,6 @@
             "conflict": {
                 "drush/drush": "<8.1.10",
                 "symfony/http-foundation": "4.4.42"
-            },
-            "replace": {
-                "drupal/action": "self.version",
-                "drupal/aggregator": "self.version",
-                "drupal/automated_cron": "self.version",
-                "drupal/ban": "self.version",
-                "drupal/bartik": "self.version",
-                "drupal/basic_auth": "self.version",
-                "drupal/big_pipe": "self.version",
-                "drupal/block": "self.version",
-                "drupal/block_content": "self.version",
-                "drupal/book": "self.version",
-                "drupal/breakpoint": "self.version",
-                "drupal/ckeditor": "self.version",
-                "drupal/ckeditor5": "self.version",
-                "drupal/claro": "self.version",
-                "drupal/classy": "self.version",
-                "drupal/color": "self.version",
-                "drupal/comment": "self.version",
-                "drupal/config": "self.version",
-                "drupal/config_translation": "self.version",
-                "drupal/contact": "self.version",
-                "drupal/content_moderation": "self.version",
-                "drupal/content_translation": "self.version",
-                "drupal/contextual": "self.version",
-                "drupal/core-annotation": "self.version",
-                "drupal/core-assertion": "self.version",
-                "drupal/core-bridge": "self.version",
-                "drupal/core-class-finder": "self.version",
-                "drupal/core-datetime": "self.version",
-                "drupal/core-dependency-injection": "self.version",
-                "drupal/core-diff": "self.version",
-                "drupal/core-discovery": "self.version",
-                "drupal/core-event-dispatcher": "self.version",
-                "drupal/core-file-cache": "self.version",
-                "drupal/core-file-security": "self.version",
-                "drupal/core-filesystem": "self.version",
-                "drupal/core-front-matter": "self.version",
-                "drupal/core-gettext": "self.version",
-                "drupal/core-graph": "self.version",
-                "drupal/core-http-foundation": "self.version",
-                "drupal/core-php-storage": "self.version",
-                "drupal/core-plugin": "self.version",
-                "drupal/core-proxy-builder": "self.version",
-                "drupal/core-render": "self.version",
-                "drupal/core-serialization": "self.version",
-                "drupal/core-transliteration": "self.version",
-                "drupal/core-utility": "self.version",
-                "drupal/core-uuid": "self.version",
-                "drupal/core-version": "self.version",
-                "drupal/datetime": "self.version",
-                "drupal/datetime_range": "self.version",
-                "drupal/dblog": "self.version",
-                "drupal/dynamic_page_cache": "self.version",
-                "drupal/editor": "self.version",
-                "drupal/entity_reference": "self.version",
-                "drupal/field": "self.version",
-                "drupal/field_layout": "self.version",
-                "drupal/field_ui": "self.version",
-                "drupal/file": "self.version",
-                "drupal/filter": "self.version",
-                "drupal/forum": "self.version",
-                "drupal/hal": "self.version",
-                "drupal/help": "self.version",
-                "drupal/help_topics": "self.version",
-                "drupal/history": "self.version",
-                "drupal/image": "self.version",
-                "drupal/inline_form_errors": "self.version",
-                "drupal/jsonapi": "self.version",
-                "drupal/language": "self.version",
-                "drupal/layout_builder": "self.version",
-                "drupal/layout_discovery": "self.version",
-                "drupal/link": "self.version",
-                "drupal/locale": "self.version",
-                "drupal/media": "self.version",
-                "drupal/media_library": "self.version",
-                "drupal/menu_link_content": "self.version",
-                "drupal/menu_ui": "self.version",
-                "drupal/migrate": "self.version",
-                "drupal/migrate_drupal": "self.version",
-                "drupal/migrate_drupal_multilingual": "self.version",
-                "drupal/migrate_drupal_ui": "self.version",
-                "drupal/minimal": "self.version",
-                "drupal/mysql": "self.version",
-                "drupal/node": "self.version",
-                "drupal/olivero": "self.version",
-                "drupal/options": "self.version",
-                "drupal/page_cache": "self.version",
-                "drupal/path": "self.version",
-                "drupal/path_alias": "self.version",
-                "drupal/pgsql": "self.version",
-                "drupal/quickedit": "self.version",
-                "drupal/rdf": "self.version",
-                "drupal/responsive_image": "self.version",
-                "drupal/rest": "self.version",
-                "drupal/search": "self.version",
-                "drupal/serialization": "self.version",
-                "drupal/settings_tray": "self.version",
-                "drupal/seven": "self.version",
-                "drupal/shortcut": "self.version",
-                "drupal/sqlite": "self.version",
-                "drupal/standard": "self.version",
-                "drupal/stark": "self.version",
-                "drupal/statistics": "self.version",
-                "drupal/syslog": "self.version",
-                "drupal/system": "self.version",
-                "drupal/taxonomy": "self.version",
-                "drupal/telephone": "self.version",
-                "drupal/text": "self.version",
-                "drupal/toolbar": "self.version",
-                "drupal/tour": "self.version",
-                "drupal/tracker": "self.version",
-                "drupal/update": "self.version",
-                "drupal/user": "self.version",
-                "drupal/views": "self.version",
-                "drupal/views_ui": "self.version",
-                "drupal/workflows": "self.version",
-                "drupal/workspaces": "self.version"
             },
             "type": "drupal-core",
             "extra": {
@@ -1410,9 +1292,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.4.2"
+                "source": "https://github.com/drupal/core/tree/9.4.4"
             },
-            "time": "2022-07-07T01:18:39+00:00"
+            "time": "2022-07-28T19:27:35+00:00"
         },
         {
             "name": "drush/drush",
@@ -2177,16 +2059,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.12.0",
+            "version": "2.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "54d4682ac51c005db15c50543e76796a86606fe9"
+                "reference": "6cb35f61913f06b2c91075db00f67cfd78869e28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/54d4682ac51c005db15c50543e76796a86606fe9",
-                "reference": "54d4682ac51c005db15c50543e76796a86606fe9",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/6cb35f61913f06b2c91075db00f67cfd78869e28",
+                "reference": "6cb35f61913f06b2c91075db00f67cfd78869e28",
                 "shasum": ""
             },
             "require": {
@@ -2207,13 +2089,13 @@
                 "ext-dom": "*",
                 "ext-gd": "*",
                 "ext-libxml": "*",
-                "http-interop/http-factory-tests": "^0.8.0",
-                "laminas/laminas-coding-standard": "~1.0.0",
-                "php-http/psr7-integration-tests": "^1.1",
+                "http-interop/http-factory-tests": "^0.9.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
+                "php-http/psr7-integration-tests": "^1.1.1",
                 "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.1",
-                "psalm/plugin-phpunit": "^0.14.0",
-                "vimeo/psalm": "^4.3"
+                "phpunit/phpunit": "^9.5",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "vimeo/psalm": "^4.24.0"
             },
             "type": "library",
             "extra": {
@@ -2272,7 +2154,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-07-06T11:42:36+00:00"
+            "time": "2022-07-28T12:23:48+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
@@ -2338,40 +2220,41 @@
         },
         {
             "name": "laminas/laminas-feed",
-            "version": "2.17.0",
+            "version": "2.18.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-feed.git",
-                "reference": "1ccb024ea615606ed1d676ba0fa3f22a398f3ac0"
+                "reference": "f2b852e88996fb9ffeaa862398505ce06afdbcc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/1ccb024ea615606ed1d676ba0fa3f22a398f3ac0",
-                "reference": "1ccb024ea615606ed1d676ba0fa3f22a398f3ac0",
+                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/f2b852e88996fb9ffeaa862398505ce06afdbcc0",
+                "reference": "f2b852e88996fb9ffeaa862398505ce06afdbcc0",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "laminas/laminas-escaper": "^2.9",
+                "laminas/laminas-servicemanager": "^3.14.0",
                 "laminas/laminas-stdlib": "^3.6",
-                "php": "^7.3 || ~8.0.0 || ~8.1.0"
+                "php": "^7.4 || ~8.0.0 || ~8.1.0"
             },
             "conflict": {
                 "laminas/laminas-servicemanager": "<3.3",
                 "zendframework/zend-feed": "*"
             },
             "require-dev": {
-                "laminas/laminas-cache": "^2.7.2",
-                "laminas/laminas-coding-standard": "~2.2.1",
+                "laminas/laminas-cache": "^2.13.2 || ^3.1.3",
+                "laminas/laminas-cache-storage-adapter-memory": "^1.1.0 || ^2.0.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
                 "laminas/laminas-db": "^2.13.3",
                 "laminas/laminas-http": "^2.15",
-                "laminas/laminas-servicemanager": "^3.7",
                 "laminas/laminas-validator": "^2.15",
                 "phpunit/phpunit": "^9.5.5",
-                "psalm/plugin-phpunit": "^0.13.0",
+                "psalm/plugin-phpunit": "^0.17.0",
                 "psr/http-message": "^1.0.1",
-                "vimeo/psalm": "^4.1"
+                "vimeo/psalm": "^4.24.0"
             },
             "suggest": {
                 "laminas/laminas-cache": "Laminas\\Cache component, for optionally caching feeds between requests",
@@ -2391,11 +2274,13 @@
             "license": [
                 "BSD-3-Clause"
             ],
-            "description": "provides functionality for consuming RSS and Atom feeds",
+            "description": "provides functionality for creating and consuming RSS and Atom feeds",
             "homepage": "https://laminas.dev",
             "keywords": [
+                "atom",
                 "feed",
-                "laminas"
+                "laminas",
+                "rss"
             ],
             "support": {
                 "chat": "https://laminas.dev/chat",
@@ -2411,20 +2296,111 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-03-24T10:26:04+00:00"
+            "time": "2022-07-19T09:20:28+00:00"
         },
         {
-            "name": "laminas/laminas-stdlib",
-            "version": "3.10.1",
+            "name": "laminas/laminas-servicemanager",
+            "version": "3.16.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laminas/laminas-stdlib.git",
-                "reference": "0d669074845fc80a99add0f64025192f143ef836"
+                "url": "https://github.com/laminas/laminas-servicemanager.git",
+                "reference": "863c66733740cd36ebf5e700f4258ef2c68a2a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/0d669074845fc80a99add0f64025192f143ef836",
-                "reference": "0d669074845fc80a99add0f64025192f143ef836",
+                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/863c66733740cd36ebf5e700f4258ef2c68a2a24",
+                "reference": "863c66733740cd36ebf5e700f4258ef2c68a2a24",
+                "shasum": ""
+            },
+            "require": {
+                "laminas/laminas-stdlib": "^3.2.1",
+                "php": "~7.4.0 || ~8.0.0 || ~8.1.0",
+                "psr/container": "^1.0"
+            },
+            "conflict": {
+                "ext-psr": "*",
+                "laminas/laminas-code": "<3.3.1",
+                "zendframework/zend-code": "<3.3.1",
+                "zendframework/zend-servicemanager": "*"
+            },
+            "provide": {
+                "psr/container-implementation": "^1.0"
+            },
+            "replace": {
+                "container-interop/container-interop": "^1.2.0"
+            },
+            "require-dev": {
+                "composer/package-versions-deprecated": "^1.0",
+                "laminas/laminas-coding-standard": "~2.3.0",
+                "laminas/laminas-container-config-test": "^0.7",
+                "laminas/laminas-dependency-plugin": "^2.1.2",
+                "mikey179/vfsstream": "^1.6.10@alpha",
+                "ocramius/proxy-manager": "^2.11",
+                "phpbench/phpbench": "^1.1",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.5.5",
+                "psalm/plugin-phpunit": "^0.17.0",
+                "vimeo/psalm": "^4.8"
+            },
+            "suggest": {
+                "ocramius/proxy-manager": "ProxyManager ^2.1.1 to handle lazy initialization of services"
+            },
+            "bin": [
+                "bin/generate-deps-for-config-factory",
+                "bin/generate-factory-for-class"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/autoload.php"
+                ],
+                "psr-4": {
+                    "Laminas\\ServiceManager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Factory-Driven Dependency Injection Container",
+            "homepage": "https://laminas.dev",
+            "keywords": [
+                "PSR-11",
+                "dependency-injection",
+                "di",
+                "dic",
+                "laminas",
+                "service-manager",
+                "servicemanager"
+            ],
+            "support": {
+                "chat": "https://laminas.dev/chat",
+                "docs": "https://docs.laminas.dev/laminas-servicemanager/",
+                "forum": "https://discourse.laminas.dev",
+                "issues": "https://github.com/laminas/laminas-servicemanager/issues",
+                "rss": "https://github.com/laminas/laminas-servicemanager/releases.atom",
+                "source": "https://github.com/laminas/laminas-servicemanager"
+            },
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2022-07-27T14:58:17+00:00"
+        },
+        {
+            "name": "laminas/laminas-stdlib",
+            "version": "3.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laminas/laminas-stdlib.git",
+                "reference": "aad7d2b11ba0069ba0d9b40f6dde3c2fa664b57f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laminas/laminas-stdlib/zipball/aad7d2b11ba0069ba0d9b40f6dde3c2fa664b57f",
+                "reference": "aad7d2b11ba0069ba0d9b40f6dde3c2fa664b57f",
                 "shasum": ""
             },
             "require": {
@@ -2437,7 +2413,7 @@
                 "laminas/laminas-coding-standard": "~2.3.0",
                 "phpbench/phpbench": "^1.0",
                 "phpunit/phpunit": "^9.3.7",
-                "psalm/plugin-phpunit": "^0.16.0",
+                "psalm/plugin-phpunit": "^0.17.0",
                 "vimeo/psalm": "^4.7"
             },
             "type": "library",
@@ -2470,7 +2446,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2022-06-10T14:49:09+00:00"
+            "time": "2022-07-27T12:28:58+00:00"
         },
         {
             "name": "league/container",
