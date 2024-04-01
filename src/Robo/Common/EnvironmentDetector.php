@@ -112,8 +112,21 @@ class EnvironmentDetector extends AcquiaDrupalEnvironmentDetector {
    */
   public static function isLocalEnv(): bool {
     $results = self::getSubclassResults(__FUNCTION__);
-    if ($results) {
-      return TRUE;
+
+    // If subclass results are found, return them directly.
+    if ($results !== null) {
+      // If it's not an array, return it directly.
+      if (!is_array($results)) {
+        return $results;
+      }
+      // If it's an array, check if it contains true.
+      if (in_array(true, $results, true)) {
+        return true;
+      }
+      // If it contains only false, return false.
+      if (!in_array(true, $results, true) && in_array(false, $results, true)) {
+        return false;
+      }
     }
 
     return parent::isLocalEnv() && !self::isPantheonEnv() && !self::isCiEnv();
