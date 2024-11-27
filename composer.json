@@ -31,7 +31,7 @@
         "dflydev/dot-access-data": "^3",
         "doctrine/annotations": "^1.10.0",
         "drupal/core": "^10.0.0",
-        "drush/drush": "^12",
+        "drush/drush": "^12 || ^13",
         "enlightn/security-checker": "^1.3",
         "grasmash/yaml-cli": "^3.0.0",
         "grasmash/yaml-expander": "^3.0.2",
