@@ -56,17 +56,6 @@ jobs:
       - name: Script
         run: ../orca/bin/ci/script.sh
 
-      - name: After script
-        run: ../orca/bin/ci/after_script.sh
-
-      - name: After success
-        if: ${{ success() }}
-        run: ../orca/bin/ci/after_success.sh
-
-      - name: After failure
-        if: ${{ failure() }}
-        run: ../orca/bin/ci/after_failure.sh
-
   all-successful:
     if: always()
     runs-on: ubuntu-latest
