@@ -59,7 +59,21 @@ WARNING;
     $default_multisite_dir = $this->getConfigValue('docroot') . "/sites/default";
     $default_project_default_settings_file = "$default_multisite_dir/default.settings.php";
 
-    $multisites = $this->getConfigValue('multisites');
+    $sitelists = $this->getConfigValue('sitelists');
+    if (is_array($sitelists)) {
+      // Initialize an empty array to store the combined items
+      $multisites = [];
+      foreach ($sitelists as $sitelist) {
+        $sites = $this->getConfigValue($sitelist);
+        if (is_array($sites)) {
+          $multisites = array_merge($multisites, $sites);
+        }
+      }
+    }
+    else {
+      $multisites = $this->getConfigValue('multisites');
+    }
+
     $initial_site = $this->getConfigValue('site');
     $current_site = $initial_site;
 
