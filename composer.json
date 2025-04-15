@@ -1,5 +1,5 @@
 {
-    "name": "acquia/blt",
+    "name": "shelane/blt",
     "description": "BLT",
     "license": "GPL-2.0-only",
     "type": "composer-plugin",
@@ -15,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/acquia/blt/issues",
+        "issues": "https://github.com/shelane/blt/issues",
         "docs": "https://docs.acquia.com/blt/"
     },
     "require": {
