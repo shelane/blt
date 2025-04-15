@@ -106,13 +106,13 @@ jobs:
       - name: After script
         run: ../orca/bin/ci/after_script.sh
 
-      - name: After success
-        if: ${{ success() }}
-        run: ../orca/bin/ci/after_success.sh
+      #- name: After success
+      #  if: ${{ success() }}
+      #  run: ../orca/bin/ci/after_success.sh
 
-      - name: After failure
-        if: ${{ failure() }}
-        run: ../orca/bin/ci/after_failure.sh
+      #- name: After failure
+      #  if: ${{ failure() }}
+      #  run: ../orca/bin/ci/after_failure.sh
 
   # Require all checks to pass without having to enumerate them in the branch protection UI.
   # @see https://github.community/t/is-it-possible-to-require-all-github-actions-tasks-to-pass-without-enumerating-them/117957
