@@ -106,6 +106,20 @@ class EnvironmentDetector extends AcquiaDrupalEnvironmentDetector {
   }
 
   /**
+   * Is 'other' hosting environment.
+   *
+   * Allow custom environment detectors to declare a non-local environment.
+   */
+  public static function isOnPremEnv(): bool {
+    $results = self::getSubclassResults(__FUNCTION__);
+    if ($results) {
+      return TRUE;
+    }
+
+    return FALSE;
+  }
+
+  /**
    * Is local.
    *
    * @throws \ReflectionException
@@ -116,7 +130,7 @@ class EnvironmentDetector extends AcquiaDrupalEnvironmentDetector {
       return TRUE;
     }
 
-    return parent::isLocalEnv() && !self::isPantheonEnv() && !self::isCiEnv();
+    return parent::isLocalEnv() && !self::isPantheonEnv() && !self::isCiEnv() && !self::isOnPremEnv();
   }
 
   /**
