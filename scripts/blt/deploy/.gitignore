@@ -1,7 +1,11 @@
 # This file will be copied into the root directory of the build artifact.
-local.*
-*.local
+local.settings.php
+local.drush.yml
+local.site.yml
+local.services.yml
+local.development.services.yml
 local.blt.yml
+*.local
 
 # Ignore paths that contain user-generated content.
 /docroot/sites/*/files
