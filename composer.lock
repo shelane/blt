@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0ab7ad917302aa683254402de2f9453",
+    "content-hash": "ba66a2b0b75f55018b19730a291a3ad8",
     "packages": [
         {
             "name": "acquia/drupal-environment-detector",
@@ -6076,16 +6076,16 @@
     "packages-dev": [
         {
             "name": "acquia/coding-standards",
-            "version": "v2.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/coding-standards-php.git",
-                "reference": "bb52b780a00ca7586e8b2e502e09dc53c5e90a60"
+                "reference": "7315583494b81cbcbd8817d7e00dd8f4fba34b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/coding-standards-php/zipball/bb52b780a00ca7586e8b2e502e09dc53c5e90a60",
-                "reference": "bb52b780a00ca7586e8b2e502e09dc53c5e90a60",
+                "url": "https://api.github.com/repos/acquia/coding-standards-php/zipball/7315583494b81cbcbd8817d7e00dd8f4fba34b88",
+                "reference": "7315583494b81cbcbd8817d7e00dd8f4fba34b88",
                 "shasum": ""
             },
             "require": {
@@ -6101,7 +6101,7 @@
             "type": "phpcodesniffer-standard",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "2.x-dev"
+                    "dev-develop": "3.x-dev"
                 }
             },
             "autoload": {
@@ -6111,7 +6111,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0-only"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -6131,7 +6131,7 @@
                 "issues": "https://github.com/acquia/coding-standards/issues",
                 "source": "https://github.com/acquia/coding-standards"
             },
-            "time": "2023-03-06T17:49:20+00:00"
+            "time": "2024-07-11T20:08:50+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -6580,7 +6580,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
@@ -6589,9 +6589,9 @@
         "composer-plugin-api": "^2.0",
         "composer-runtime-api": "^2.0"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.1"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
